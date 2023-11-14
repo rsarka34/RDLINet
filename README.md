@@ -8,7 +8,7 @@ Respiratory diseases are the world’s third leading cause of mortality. Early d
 @ARTICLE{10174701,\
   author={Roy, Arka and Satija, Udit},\
   journal={IEEE Transactions on Instrumentation and Measurement},\
-  title={RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds},\ 
+  title={RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds},\
   year={2023},\
   volume={72},\
   number={},\
