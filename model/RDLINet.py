@@ -47,9 +47,8 @@ Y=np.array(class_label_onehot);
 print(X.shape)
 print(Y.shape)
 
-def mobile_inception(dim, output_neurons, output_activation):
+def RDLINet(dim, output_neurons, output_activation):
     print("\nTRAINING ON RDLINet:-")
-
 
     def block(x, filters, reps):
         for _ in range(reps):
@@ -57,19 +56,16 @@ def mobile_inception(dim, output_neurons, output_activation):
             t1 = Conv2D(filters[0], kernel_size = (1,1))(x)
             t1 = LeakyReLU()(t1)
 
-            # for mid-level features
             t2 = DepthwiseConv2D(kernel_size = (3,3), strides = 1, padding = 'same')(x)
             t2 = LeakyReLU()(t2)
             t2 = Conv2D(filters[1], kernel_size = (1,1))(t2)
             t2 = LeakyReLU()(t2)
 
-            # for high-level features
             t3 = DepthwiseConv2D(kernel_size = (5,5), strides = 1, padding = 'same')(x)
             t3 = LeakyReLU()(t3)
             t3 = Conv2D(filters[2], kernel_size = (1,1))(t3)
             t3 = LeakyReLU()(t3)
 
-            # for most-significant features
             t4 = MaxPool2D(pool_size = (3,3), strides = 1, padding = 'same')(x)
             t4 = Conv2D(filters[3], kernel_size = (1,1))(t4)
             t4 = LeakyReLU()(t4)
@@ -114,7 +110,7 @@ output_neurons = 7
 output_activation = 'softmax'
 from keras import backend as Ke
 Ke.clear_session()
-model = mobile_inception(dim, output_neurons, output_activation)
+model = RDLINet(dim, output_neurons, output_activation)
 
 p=1;batch=256;
 print('Random_seed_value== '+str(p))
