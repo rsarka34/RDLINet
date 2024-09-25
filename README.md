@@ -28,7 +28,7 @@ Respiratory diseases are the world’s third leading cause of mortality. Early d
 
 # Performance
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/393c104c-e035-4349-8c7e-55d3b6f95e48" alt="Description of image" width="800"/>
+  <img src="https://github.com/user-attachments/assets/393c104c-e035-4349-8c7e-55d3b6f95e48" alt="Description of image" width="1000"/>
 </p>
 
 # Cite as
