@@ -32,12 +32,15 @@ Respiratory diseases are the world’s third leading cause of mortality. Early d
 </p>
 
 # Cite as
-@ARTICLE{10174701,\
-  author={Roy, Arka and Satija, Udit},\
-  journal={IEEE Transactions on Instrumentation and Measurement},\
-  title={RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds},\
-  year={2023},\
-  volume={72},\
-  number={},\
-  pages={1-13},\
+A. Roy and U. Satija, "RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds," in *IEEE Transactions on Instrumentation and Measurement*, vol. 72, pp. 1-13, 2023, Art no. 4008813, doi: 10.1109/TIM.2023.3292953. 
+
+```bibtex
+@ARTICLE{10174701,
+  author={Roy, Arka and Satija, Udit},
+  journal={IEEE Transactions on Instrumentation and Measurement},
+  title={RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds},
+  year={2023},
+  volume={72},
+  number={},
+  pages={1-13},
   doi={10.1109/TIM.2023.3292953}}
