@@ -116,7 +116,6 @@ p=1;batch=256;
 print('Random_seed_value== '+str(p))
 X_train_1,X_test,Y_train_1,Y_test=train_test_split(X,Y,test_size=0.1,random_state=p)
 X_train,X_val,Y_train,Y_val=train_test_split(X_train_1,Y_train_1,test_size=0.1,random_state=p)
-model = mobile_inception(dim, output_neurons, output_activation)
 
 print("================================================================================================")
 opt =tf.keras.optimizers.Adam(learning_rate=0.008)
