@@ -150,7 +150,6 @@ plt.xlabel('epoch')
 plt.legend(['train', 'validation'], loc='best')
 plt.show()
 
-X_train_1,X_test,Y_train_1,Y_test=train_test_split(X,Y,test_size=0.1,random_state=2)
 results=model.evaluate(X_test,Y_test,batch_size=128,verbose=1)
 print('Test loss:', results[0])
 print('Test accuracy:', results[1])
