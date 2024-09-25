@@ -14,6 +14,9 @@ Respiratory diseases are the world’s third leading cause of mortality. Early d
 # Methodology
 ![pmrf_rdli](https://github.com/rsarka34/RDLINet/assets/89518952/27be38d1-0df6-4c17-83a4-a2462089e4a8)
 
+# Train RDLINet
+`run RDLINet/model/RDLINet.py`
+
 # Dataset
 - ICBHI Dataset: [![Paper Link](https://img.shields.io/badge/ICBHI%20Data-BHI%20Challenge-green)](https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge)
 - KAUH Dataset: [![Paper Link](https://img.shields.io/badge/KAUH%20Data-Mendeley%20Data-red)](https://data.mendeley.com/datasets/jwyy9np4gv/3)
