@@ -209,10 +209,6 @@ plt.xlabel('Predicted Values')
 plt.show()
 
 from tensorflow.keras.models import Model
-X_train_1,X_test,Y_train_1,Y_test=train_test_split(X,Y,test_size=0.1,random_state=3)
-import tensorflow as tf
-model.load_weights('/content/gdrive/MyDrive/7clss_orig_dim/GLU_train_on_11_05_23/fold_11_05_23glu_7class_64_38.h5')
-#model.load_weights
 out_dense= Model(inputs=model.input,outputs=model.get_layer('dense_2').output)
 Y_denseout = out_dense.predict(X_test)
 from sklearn.manifold import TSNE
