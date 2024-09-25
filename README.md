@@ -20,7 +20,7 @@ Respiratory diseases are the world’s third leading cause of mortality. Early d
 - RespiratoryDatabase@TR: [![Paper Link](https://img.shields.io/badge/RD%20@TR-Mendeley%20Data-red)](https://data.mendeley.com/datasets/p9z4h98s6j/1)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4c6b942a-49fa-4d95-b339-76752d282082" alt="Description of image" width="800"/>
+  <img src="https://github.com/user-attachments/assets/4c6b942a-49fa-4d95-b339-76752d282082" alt="Description of image" width="1000"/>
 </p>
 
 # Results
