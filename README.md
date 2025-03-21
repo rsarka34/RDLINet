@@ -2,8 +2,9 @@
 
 **RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds**
 
-**Authors: Arka Roy, Udit Satija** 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rdlinet-a-novel-lightweight-inception-network/lung-sound-classification-on-icbhi)](https://paperswithcode.com/sota/lung-sound-classification-on-icbhi?p=rdlinet-a-novel-lightweight-inception-network)
+
+**Authors: Arka Roy, Udit Satija** 
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rsarka34/RDLINet/blob/main/model/RDLINet.ipynb)
 [![Paper Link](https://img.shields.io/badge/Paper%20Link-IEEE%20Xplore-green)](https://ieeexplore.ieee.org/document/10174701)
