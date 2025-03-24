@@ -2,7 +2,6 @@
 
 **RDLINet: A Novel Lightweight Inception Network for Respiratory Disease Classification Using Lung Sounds**
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rdlinet-a-novel-lightweight-inception-network/lung-sound-classification-on-icbhi)](https://paperswithcode.com/sota/lung-sound-classification-on-icbhi?p=rdlinet-a-novel-lightweight-inception-network)
 
 **Authors: Arka Roy, Udit Satija** 
 
@@ -10,6 +9,8 @@
 [![Paper Link](https://img.shields.io/badge/Paper%20Link-IEEE%20Xplore-green)](https://ieeexplore.ieee.org/document/10174701)
 [![Paper Link](https://img.shields.io/badge/Preprint-TechRixv-red)](https://www.techrxiv.org/doi/full/10.36227/techrxiv.21732272.v1) 
 
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/rdlinet-a-novel-lightweight-inception-network/lung-sound-classification-on-icbhi)](https://paperswithcode.com/sota/lung-sound-classification-on-icbhi?p=rdlinet-a-novel-lightweight-inception-network)
 # Abstract:
 <p align="justify">
 Respiratory diseases are the world’s third leading cause of mortality. Early detection is critical in dealing with respiratory diseases, as it improves the effectiveness of intervention, including treatment and reducing the spread. The main aim of this article is to propose a novel lightweight inception network to classify a wide spectrum of respiratory diseases using lung sound signals. The proposed framework consists of three stages: 1) preprocessing; 2) mel spectrogram extraction and conversion into a three-channel image; and 3) classification of the mel spectrogram images into different pathological classes using the proposed lightweight inception network, namely, respiratory disease lightweight inception network (RDLINet). Utilizing the proposed architecture, we have achieved a high classification accuracy of 96.6%, 99.6%, and 94.0% for seven-class classification, six-class classification, and healthy versus asthma classification. To the best of our knowledge, this is the first work on seven-class respiratory disease classification using lung sounds. Whereas, our proposed network outperforms all the existing published works for six-class and binary classifications. The suggested framework makes use of deep-learning methods and offers a standardized evaluation with strong categorization capabilities. In order to distinguish between a wide range of respiratory diseases, our study is a pioneering one that focuses exclusively on lung sounds. The proposed framework can be translated into real-time clinical application, which will facilitate the prospect of automated respiratory health screening using lung sounds.
