@@ -8,7 +8,6 @@ import wave
 import keras
 import seaborn as sns
 import librosa
-import soundfile as sf
 from google.colab import drive
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
